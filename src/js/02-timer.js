@@ -73,6 +73,7 @@ inputEl.addEventListener('input', e => {
         minutesEl.innerHTML = addLeadingZero(0);
         hoursEl.innerHTML = addLeadingZero(0);
         daysEl.innerHTML = addLeadingZero(0);
+        Notiflix.Notify.success(`Time's up! WELCOME!`);
       }
     }, 1000);
   });
