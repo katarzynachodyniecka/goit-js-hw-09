@@ -53,7 +53,7 @@ const addLeadingZero = value => {
   }
   return value;
 };
-
+let pickedDate = null;
 inputEl.addEventListener('input', e => {
   pickedDate = new Date(e.currentTarget.value).getTime();
 
